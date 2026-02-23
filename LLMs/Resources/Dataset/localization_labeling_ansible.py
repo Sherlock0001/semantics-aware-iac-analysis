@@ -95,7 +95,7 @@ def process_xlsx(
 # ---------- Run ----------
 if __name__ == "__main__":
     process_xlsx(
-        input_path="/Users/aicha.warOld.war/Desktop/LLM-experiments/ansible_unseen_dataset.xlsx",
-        output_path="/Users/aicha.warOld.war/Desktop/LLM-experiments/ansible_code_with_cwe_labels.xlsx",
+        input_path="ansible_unseen_dataset.xlsx",
+        output_path="ansible_code_with_cwe_labels.xlsx",
         code_column="previous_code",
     )
