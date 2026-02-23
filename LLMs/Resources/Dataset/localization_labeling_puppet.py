@@ -95,7 +95,7 @@ def process_xlsx(
 # ---------- Run ----------
 if __name__ == "__main__":
     process_xlsx(
-        input_path="/Users/aicha.warOld.war/Desktop/LLM-experiments/puppet_unseen_dataset.xlsx",
-        output_path="/Users/aicha.warOld.war/Desktop/LLM-experiments/puppet_code_with_cwe_labels.xlsx",
+        input_path="puppet_unseen_dataset.xlsx",
+        output_path="puppet_code_with_cwe_labels.xlsx",
         code_column="Script.Content",
     )
